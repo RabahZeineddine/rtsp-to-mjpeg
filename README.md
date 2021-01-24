@@ -13,7 +13,7 @@ CAMERASTREAM=''
 ## Docker
 
 ```bash
-docker container run --rm -e CAMERAUSER='' -e CAMERAPASSWORD='' -e CAMERAIP='' -e CAMERAPORT= -e CAMERASTREAM='' -p 9000:8080  rabahzein/rtsp-to-mjpeg
+docker container run -e CAMERAUSER='' -e CAMERAPASSWORD='' -e CAMERAIP='' -e CAMERAPORT= -e CAMERASTREAM='' -p 9000:8080  rabahzein/rtsp-to-mjpeg
 ```
 
 ## Docker-Compose
